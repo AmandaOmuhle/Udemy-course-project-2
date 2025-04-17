@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+
+.container {
+  width: 1140px;
+  max-width: 90%;
+  margin: auto;
+  background: yellow;
+}
+
+header {
+  height: 70px;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 26px;
+}
+
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
